@@ -1,121 +1,61 @@
-<!DOCTYPE html> <!-- This tells the version of HTML | This is HTML5-->
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
-  <!-- This handles the page -->
-  <meta charset="utf-8"> <!-- This handles the unicode of the page HTML5-->
-  <title>Joshua's Personal Site</title>
+  <meta charset="utf-8">
+  <title>My Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <!-- Embedded font from google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/jp-modified.png" alt="profile pic"></td>
-      <td>
-        <h1>Joshua Philippe Go</h1>
-        <p><em>Founder of the <strong><a href="https://www.starbucks.com/">Starbucks Application</a></strong>.</em></p>
-        <p>I am an IOS and Web developer. I love coffee and brew my own beers.</p>
-      </td>
-    </tr>
-  </table>
+  <!-- div is Content division elements or containers -->
+  <div class="top-container">
+    <h1>I'm Joshua.</h1>
+    <h2>A programmer.</h2>
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="C:\Users\ROG\Desktop\Web Development\CSS - My Site\images\jp-modified.png" alt=" profile pic">
+      <h2>Hello.</h2>
+      <p class="intro">I am a Front-end Web developer. I love coffee and play online games.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-img-row1" src="C:\Users\ROG\Desktop\Web Development\CSS - My Site\images\computer.png" alt="laptop">
+        <h3>Web Development</h3>
+        <p>I started learning to code when I was 17 years old. Designing and developing mobile and web applications is my passion.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-img-row2" src="C:\Users\ROG\Desktop\Web Development\CSS - My Site\images\chillies.png" alt="chillies">
+        <h3>MERN Full Stack</h3>
+        <p>This is the coding approach that I want to master and build a career on.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love hot wings as much as I do.</h3>
+      <p class="contact-message">Let's talk about how awesome they are! We can code while we eat hot wings!</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2022 Joshua Go @ Portfolio.</p>
+  </div>
 
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li>The complete <a href="https://www.youtube.com/results?search_query=ios+development+tutorial">IOS Development bootcamp</a></li>
-    <li>The complete <a href="https://www.youtube.com/results?search_query=web+development+tutorial">Web Development Course</a></li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <!-- Table Head -->
-      <th>Dates</th>
-      <th>Work</th>
-    </thead>
-    <tbody>
-      <!-- Table Body -->
-      <tr>
-        <!-- Table Row -->
-        <td>2019 - 2022</td> <!-- Table data -->
-        <td>Lead Developer at Accenture</td>
-      </tr>
-      <tr>
-        <td>2022</td> <!-- Table data -->
-        <td>Cold Caller at VAM</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <!-- Table Footer -->
-
-    </tfoot>
-
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <!--
-  <table border="1">
-    <tr>
-      <td>HTML</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>Web Development</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>CSS</td>
-      <td>⭐⭐⭐⭐</td>
-      <td>Photography</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>⭐⭐⭐⭐⭐</td>
-      <td>Photoshop</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  -->
-
-  <table cellspacing="10">
-    <!-- Table outline -->
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>Web Development</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Photography</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Photoshop</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contactme.html">Contact Details</a>
 </body>
 
 </html>
